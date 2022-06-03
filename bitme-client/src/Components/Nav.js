@@ -20,11 +20,11 @@ const Nav = () => {
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal p-0">
-        <li><Link to='/trade' className='hover:text-neutral'>Trade</Link></li>
-        <li><Link to='/NFT' className='hover:text-neutral'>NFT</Link></li>
-        <li><Link to='/Earn' className='hover:text-neutral'>Earn</Link></li>
-        <li><Link to='/Win' className='hover:text-neutral'>Win</Link></li>
-        <li><Link to='/Info' className='hover:text-neutral'>Info</Link></li>
+        <li><Link to='/trade' className='hover:text-neutral focus:bg-transparent'>Trade</Link></li>
+        <li><Link to='/NFT' className='hover:text-neutral focus:bg-transparent'>NFT</Link></li>
+        <li><Link to='/Earn' className='hover:text-neutral focus:bg-transparent'>Earn</Link></li>
+        <li><Link to='/Win' className='hover:text-neutral focus:bg-transparent'>Win</Link></li>
+        <li><Link to='/Info' className='hover:text-neutral focus:bg-transparent'>Info</Link></li>
       </ul>
     </div>
     <div class="navbar-end">
