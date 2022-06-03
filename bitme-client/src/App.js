@@ -7,6 +7,10 @@ function App() {
     <div className="bg-gradient-to-r from-primary  to-accent">
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/trade" element={<NotFound/>}/>
+        <Route path="/info" element={<NotFound/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/" element={<Home/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     </div>
